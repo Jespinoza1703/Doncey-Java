@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="anchorPane" prefHeight="768.0" prefWidth="1024.0" stylesheets="@../stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphics.Menu">
+   <children>
+      <VBox id="crocoVBox" layoutX="37.0" layoutY="129.0" prefHeight="163.0" prefWidth="120.0" spacing="20.0">
+         <children>
+            <Button id="blueCrocoBtn" mnemonicParsing="false" styleClass="toggle-button">
+               <graphic>
+                  <ImageView id="blueCrocoButton" fitHeight="47.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="..\stylesheet.css">
+                     <image>
+                        <Image url="@../images/blueCroco.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ToggleButton id="redCrocoButton" mnemonicParsing="false">
+               <graphic>
+                  <ImageView fitHeight="124.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" styleClass="..\stylesheet.css">
+                     <image>
+                        <Image url="@../images/redCroco.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </ToggleButton>
+         </children>
+      </VBox>
+      <VBox id="fuitVBox" layoutX="33.0" layoutY="417.0" prefHeight="243.0" prefWidth="127.0" spacing="20.0">
+         <children>
+            <ToggleButton mnemonicParsing="false">
+               <graphic>
+                  <ImageView fitHeight="93.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/mango.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </ToggleButton>
+            <ToggleButton mnemonicParsing="false">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/apple.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </ToggleButton>
+            <ToggleButton mnemonicParsing="false">
+               <graphic>
+                  <ImageView fitHeight="155.0" fitWidth="269.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/banana.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </ToggleButton>
+         </children>
+      </VBox>
+      <ImageView fitHeight="542.0" fitWidth="691.0" layoutX="256.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bg.jpg" />
+         </image>
+      </ImageView>
+      <HBox layoutX="268.0" layoutY="251.0" prefHeight="54.0" prefWidth="629.0" spacing="30.0">
+         <children>
+            <Button id="btn1" minHeight="38.0" minWidth="34.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="34.0" styleClass="chainButton" text="1" />
+            <Button id="btn2" minHeight="38.0" minWidth="34.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="34.0" styleClass="chainButton" text="2" />
+            <Button id="btn3" minHeight="38.0" minWidth="34.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="34.0" styleClass="chainButton" text="3" />
+            <Button id="btn4" minHeight="38.0" minWidth="34.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="34.0" styleClass="chainButton" text="4" />
+            <Button id="btn5" minHeight="38.0" minWidth="34.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="34.0" styleClass="chainButton" text="5" />
+            <Button id="btn6" minHeight="38.0" minWidth="34.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="34.0" styleClass="chainButton" text="6" />
+            <Button id="btn7" minHeight="38.0" minWidth="34.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="34.0" styleClass="chainButton" text="7" />
+            <Button id="btn8" minHeight="38.0" minWidth="34.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="34.0" styleClass="chainButton" text="8" />
+            <Button id="btn9" minHeight="38.0" minWidth="34.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="34.0" styleClass="chainButton" text="9" />
+            <Button id="btn10" minHeight="38.0" minWidth="34.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="34.0" styleClass="chainButton" text="10" />
+         </children>
+      </HBox>
+      <ToggleButton layoutX="48.0" layoutY="353.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="97.0" styleClass="specialBtn" text="Eliminar" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+.toggle-button{
+    -fx-background-color: linear-gradient(#dc9556, #ab4642);
+    -fx-background-radius: 80;
+    -fx-min-width: 120;
+    -fx-min-height: 70;
+}
+
+.toggle-button:hover{
+    -fx-background-color: linear-gradient(#ab4642, #dc9556);
+}
+
+.toggle-button:selected{
+    -fx-background-color: linear-gradient(#6D2D2A, #A16D3F);
+}
+
+
+.specialBtn{
+    -fx-background-color: linear-gradient(#D6F6DD, #A0BEBE);
+    -fx-background-radius: 20;
+    -fx-min-width: 60;
+    -fx-min-height: 20;
+}
+
+.specialBtn:hover{
+    -fx-background-color: linear-gradient(#A0BEBE, #D6F6DD);
+}
+
+.specialBtn:selected{
+    -fx-background-color: linear-gradient(#B0CAB5, #586868);
+}
+
+
+.chainButton{
+    -fx-background-color: linear-gradient(#dc9556, #ab4642);
+    -fx-background-radius: 20;
+    -fx-min-width: 20;
+    -fx-min-height: 20;
+}
+
+.chainButton:hover{
+    -fx-background-color: linear-gradient(#ab4642, #dc9556);
+}
+
+
+.root{
+    -fx-background-color: linear-gradient(#ABD7D6, #2E6C6A);
+}
